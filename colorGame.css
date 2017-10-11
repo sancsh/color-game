@@ -1,20 +1,71 @@
 body{
 	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat","Avenir"
 }
-
+#stripe{
+	background: white;
+	text-align: center;
+	color: black;
+	height: 30px;
+}
 .square {
 	width: 30%;
 	padding-bottom: 30%;
 	background: purple;
 	margin: 1.66%;
 	float: left;
+	border-radius: 18%;
+	transition: background 0.7s;
+	--webkit-transition: background 0.7s;
+	--moz-transition: background 0.7s;
 }
 
 #container {
 	max-width: 40%;
-	margin: 0 auto;
+	margin: 20px auto;
+
 }
  h1{ 
  	color: white;
- 	align-self: center;
+ 	line-height: 1.1;
+ 	text-align: center;
+ 	background: steelblue;
+ 	margin: 0;
+ 	font-weight: normal;
+ 	text-transform: uppercase;
+ 	padding: 20px 0;
   }
+.selected{
+	color: white;
+	background-color: steelblue;
+}
+#rgb_text{
+	font-size: 200%;
+
+}
+button{
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	height: 100%;
+	color: steelblue;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+	outline: none;
+}
+
+button:hover{
+	color: white;
+	background-color: steelblue;
+}
+
+#answer{
+	display:inline-block;
+	width: 20%;
+}
+
+
+
